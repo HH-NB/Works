@@ -4,55 +4,55 @@ import java.util.Scanner;
 
 public class Test {
 	public static void main(String[] args) {
-		//¶¨ÒåÒ»¸ö×Ö·û´®±äÁ¿£¬¸³Öµ×Ô¼ºµÄÃû×Ö£¬È»ºó´òÓ¡
-		final String name = "Ò×Ô¶Ö¾";
+		//å®šä¹‰ä¸€ä¸ªå­—ç¬¦ä¸²å˜é‡ï¼Œèµ‹å€¼è‡ªå·±çš„åå­—ï¼Œç„¶åæ‰“å°
+		final String name = "";
 		System.out.println(name);
 		
-//		name = "ÏÄĞÇĞÇ";
+//		name = "";
 //		System.out.println(name);
 		
-		System.out.println("=======Ìõ¼ş·ÖÖ§========");
+		System.out.println("=======æ¡ä»¶åˆ†æ”¯========");
 		int i = 10;
 		if(i>5) {
-			System.out.println("´óÓÚ5");
+			System.out.println("å¤§äº5");
 		}
 		
 		System.out.println("==============");
 		
 		if(i>50) {
-			System.out.println("´óÓÚ50");
+			System.out.println("å¤§äº50");
 		}else {
-			System.out.println("²»´óÓÚ50");
+			System.out.println("ä¸å¤§äº50");
 		}
 		
 		System.out.println("===============");
 		int cj = 59;
 		//60  <60  >60
 		if(cj<60) {
-			System.out.println("Ğ¡ÀÏµÜ »¹µÃÁ·");
+			System.out.println("å°è€å¼Ÿ è¿˜å¾—ç»ƒ");
 		}else if(cj==60) {
-			System.out.println("Ğ¡ÀÏµÜ ÄãÊÇ¿Ø·Ö´óÀĞÑ½");
+			System.out.println("å°è€å¼Ÿ ä½ æ˜¯æ§åˆ†å¤§ä½¬å‘€");
 		}else {
-			System.out.println("×°±¸´óÀĞ");
+			System.out.println("è£…å¤‡å¤§ä½¬");
 		}
 		
 		System.out.println("===============");
-		//¼üÅÌÊäÈëÒ»¸ö1--7µÄÊı×Ö£¬´òÓ¡¶ÔÓ¦µÄÖÜ¼¸
+		//é”®ç›˜è¾“å…¥ä¸€ä¸ª1--7çš„æ•°å­—ï¼Œæ‰“å°å¯¹åº”çš„å‘¨å‡ 
 //		Scanner sc = new Scanner(System.in);
-//		System.out.println("ÇëÊäÈëÒ»¸öÊı×Ö");
+//		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•°å­—");
 //		int n = sc.nextInt();
 //		switch(n) {
-//			case 1:System.out.println("ÖÜ1"); break;
-//			case 2:System.out.println("ÖÜ2"); break;
-//			case 3:System.out.println("ÖÜ3"); break;
-//			case 4:System.out.println("ÖÜ4"); break;
-//			case 5:System.out.println("ÖÜ5"); break;
-//			case 6:System.out.println("ÖÜ6"); break;
-//			case 7:System.out.println("ÖÜ7"); break;
-//			default:System.out.println("ÄãËÆ²»ËÆÈö£¬7ÒÔÄÚßÏ");
+//			case 1:System.out.println("å‘¨1"); break;
+//			case 2:System.out.println("å‘¨2"); break;
+//			case 3:System.out.println("å‘¨3"); break;
+//			case 4:System.out.println("å‘¨4"); break;
+//			case 5:System.out.println("å‘¨5"); break;
+//			case 6:System.out.println("å‘¨6"); break;
+//			case 7:System.out.println("å‘¨7"); break;
+//			default:System.out.println("ä½ ä¼¼ä¸ä¼¼æ’’ï¼Œ7ä»¥å†…å‘¦");
 //		}
 		
-		System.out.println("========Ñ­»·Á÷³Ì=========");
+		System.out.println("========å¾ªç¯æµç¨‹=========");
 		System.out.println("=======while=====");
 		int j=1;
 		while(j>=10) {
@@ -67,7 +67,7 @@ public class Test {
 			j2++;
 		}while(j2>=10);
 		
-		//Ñ­»·Çó³ö1--100Ö®¼äËùÓĞÕûÊıÖ®ºÍ
+		//å¾ªç¯æ±‚å‡º1--100ä¹‹é—´æ‰€æœ‰æ•´æ•°ä¹‹å’Œ
 		int dou = 0;
 		for(int k=1;k<=100;k++) {
 			dou = dou+k;
